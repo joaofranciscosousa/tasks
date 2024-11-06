@@ -9,10 +9,10 @@ Esse é um projeto construido com [Expo](https://expo.dev). Esse app tem como ob
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 - Você possui o repositório do [tasks back-end](https://github.com/joaofranciscosousa/task-backend)
-- Caso possua uma máquina `Windows / Linux`, não será possível compilar para o iOS, somente `Android`.
-- Realizou a instalação correta do React Native v0.73.5 e suas dependências: [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment)
+- Você instalou a versão LTS do [`Node`](https://nodejs.org/pt);
+- Caso possua uma máquina `Windows / Linux`, não será possível compilar para o iOS, somente `Android`;
 - Você possui um `emulador/dispositivo Android`;
-- Você possui o gerenciador de pacotes `Yarn` (opicional) [(link para instalação)](https://classic.yarnpkg.com/lang/en/docs/install)
+- Você possui o gerenciador de pacotes `Yarn` (opicional) [(link para instalação)](https://classic.yarnpkg.com/lang/en/docs/install);
 
 ## 🚀 Instalando Apicativo Tasks
 
@@ -26,11 +26,9 @@ npm install
 
 ## 🔐 Adicionando as variáveis de ambiente
 
-Crie (caso não exista) um arquivo na raiz do projeto chamado `.env`. Nele serão inseridas as variáveis de ambiente utilizadas no projeto.
+Crie (caso não exista) um arquivo na raiz do projeto chamado `.env` a partir do arquivo `.env.example` e insira todos os valores de acordo com as suas configurações. Nele serão inseridas as variáveis de ambiente utilizadas no projeto.
 
 ## ☕ Usando Aplicativo Tasks
-
-Antes de iniciar a aplicação, recomendamos que inicialize o aplicativo desktop do Reactotron
 
 Para usar o Aplicativo Tasks, execute o comando a seguir, de acordo com o que for desejado:
 
