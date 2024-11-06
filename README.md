@@ -1,50 +1,62 @@
-# Welcome to your Expo app 👋
+# Aplicativo Tasks
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<!-- <img src="http://201.20.7.87:8080/img/logo.png" alt="Exemplo imagem"> -->
 
-## Get started
+Esse é um projeto construido com [Expo](https://expo.dev). Esse app tem como objetivo a demonstação de uma aplicação full-stack com React Native e Express. é uma aplicação simples e com diversas funcionalidades.
 
-1. Install dependencies
+## 💻 Pré-requisitos
 
-   ```bash
-   npm install
-   ```
+Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
-2. Start the app
+- Você possui o repositório do [tasks back-end](https://github.com/joaofranciscosousa/task-backend)
+- Caso possua uma máquina `Windows / Linux`, não será possível compilar para o iOS, somente `Android`.
+- Realizou a instalação correta do React Native v0.73.5 e suas dependências: [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment)
+- Você possui um `emulador/dispositivo Android`;
+- Você possui o gerenciador de pacotes `Yarn` (opicional) [(link para instalação)](https://classic.yarnpkg.com/lang/en/docs/install)
 
-   ```bash
-    npx expo start
-   ```
+## 🚀 Instalando Apicativo Tasks
 
-In the output, you'll find options to open the app in a
+Para instalar o Aplicativo Tasks, siga estas etapas:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+Etapa 1. Instale as dependências do projeto:
 
 ```bash
-npm run reset-project
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🔐 Adicionando as variáveis de ambiente
 
-## Learn more
+Crie (caso não exista) um arquivo na raiz do projeto chamado `.env`. Nele serão inseridas as variáveis de ambiente utilizadas no projeto.
 
-To learn more about developing your project with Expo, look at the following resources:
+## ☕ Usando Aplicativo Tasks
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Antes de iniciar a aplicação, recomendamos que inicialize o aplicativo desktop do Reactotron
 
-## Join the community
+Para usar o Aplicativo Tasks, execute o comando a seguir, de acordo com o que for desejado:
 
-Join our community of developers creating universal apps.
+### Executar de forma local
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```bash
+npx expo start
+```
+
+## 📫 Contribuindo para Aplicativo Tasks
+
+Para contribuir com o Aplicativo Tasks, siga estas etapas:
+
+1. Clone este repositório.
+2. Crie uma branch: `git checkout -b <numero_da_tarefa>`.
+3. Faça suas alterações e confirme-as: `git commit -m '<tipo_do_commit>: [<numero_da_tarefa>] <mensagem_commit>'`
+4. Envie para o branch original: `git push origin <nome_do_projeto> / <local>`
+5. Crie a solicitação de pull.
+
+<!-- ### :robot: Android
+
+Etapa 1. Gere um APK android pelo comando:
+
+```
+yarn build:android
+```
+
+> [!NOTE]
+> Para realizar a instalação do APK, deve ser habilitado o modo de desenvolvedor no dispositivo teste. -->
